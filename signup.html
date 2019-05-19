@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Signup | True Affiliates</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link
+			href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+			rel="stylesheet"
+		/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<div class="popup-inner">
+			<div class="container">
+				<div class="popup-content">
+					<h1>GET STARTED WITH OUR AFFILIATE PROGRAM TODAY</h1>
+
+					<div class="start-block-cont">
+						<div class="start-block">
+							<div class="start-number">
+								<p>01</p>
+							</div>
+							<div class="start-text">
+								<p>Sign Up</p>
+								<p>
+									Enter your information to create an account
+								</p>
+							</div>
+						</div>
+						<div class="start-block">
+							<div class="start-number">
+								<p>02</p>
+							</div>
+							<div class="start-text">
+								<p>Get in Touch</p>
+								<p>
+									Answer a few questions about your experience
+									so we can activate your account
+								</p>
+							</div>
+						</div>
+						<div class="start-block">
+							<div class="start-number">
+								<p>03</p>
+							</div>
+							<div class="start-text">
+								<p>Start Earning</p>
+								<p>
+									Start promoting and see results in real time
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- [start] accordeon -->
+					<ul class="accordion">
+						<li>
+							<a>Personal Information</a>
+							<form action="#" class="popup-form-hidden">
+								<label for="username">Username*</label>
+								<input
+									type="text"
+									id="username"
+									name="username"
+									placeholder="Your username"
+									required
+								/>
+
+								<label for="name">Name*</label>
+								<input
+									type="text"
+									id="name"
+									name="name"
+									placeholder="Your name"
+									required
+								/>
+
+								<label for="surname">Surname*</label>
+								<input
+									type="text"
+									id="surname"
+									name="surname"
+									placeholder="Your surname"
+									required
+								/>
+
+								<label for="password">Choose password*</label>
+								<input
+									type="password"
+									id="psw"
+									name="psw"
+									placeholder=""
+									required
+								/>
+
+								<label for="repeat-password"
+									>Repeat password*</label
+								>
+								<input
+									type="password"
+									id="psw"
+									name="psw"
+									placeholder=""
+									required
+								/>
+
+								<label for="email">Email address*</label>
+								<input
+									type="email"
+									id="email"
+									name="email"
+									placeholder="youremail@email.com"
+									required
+								/>
+
+								<label for="phone">Phone*</label>
+								<input
+									type="tel"
+									id="phone"
+									name="phone"
+									placeholder="123-456-7890"
+									pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+									required
+								/>
+
+								<label for="im">IM</label>
+								<div class="im-container">
+									<select id="im" name="im">
+										<option value="skype">Skype</option>
+										<option value="messenger"
+											>Messenger</option
+										>
+										<option value="whatsapp"
+											>WhatsApp</option
+										>
+									</select>
+									<input
+										type="text"
+										id="im-login"
+										name="im-login"
+										placeholder=""
+									/>
+								</div>
+							</form>
+						</li>
+
+						<li>
+							<a>Location Information</a>
+							<form action="#" class="popup-form-hidden">
+								<label for="country">Country</label>
+								<div class="contry-container">
+									<select id="country" name="country">
+										<option value="United States"
+											>United States</option
+										>
+										<option value="Germany">Germany</option>
+										<option value="England">England</option>
+									</select>
+									<input
+										type="number"
+										id="postal-code"
+										name="postal-code"
+										placeholder=""
+										required
+									/>
+								</div>
+
+								<label for="state">State/Province*</label>
+								<input
+									type="text"
+									id="state"
+									name="state"
+									placeholder=""
+									required
+								/>
+
+								<label for="city">City*</label>
+								<input
+									type="text"
+									id="city"
+									name="city"
+									placeholder=""
+									required
+								/>
+
+								<label for="address">Street, address*</label>
+								<input
+									type="text"
+									id="street"
+									name="street"
+									placeholder=""
+									required
+								/>
+							</form>
+						</li>
+
+						<li>
+							<a>Business Information</a>
+							<form action="#" class="popup-form-hidden">
+								<label for="company">Company name</label>
+								<input
+									type="text"
+									id="company"
+									name="company"
+									placeholder=""
+								/>
+
+								<label for="city">Business phone</label>
+								<input
+									type="text"
+									id="business-phone"
+									name="business-phone"
+									placeholder=""
+								/>
+
+								<label for="url">Primary URL*</label>
+								<input
+									type="url"
+									id="url"
+									name="url"
+									placeholder="https://example.com"
+									pattern="https://.*"
+									required
+								/>
+
+								<label for="url">Secondary URL</label>
+								<input
+									type="url"
+									id="second-url"
+									name="second-url"
+									placeholder="https://example.com"
+									pattern="https://.*"
+								/>
+
+								<label for="target">Target market</label>
+								<div class="checkbox-container">
+									<label class="label-text"
+										>North America
+										<input type="checkbox" />
+										<span class="checkmark"></span>
+									</label>
+
+									<label class="label-text"
+										>Australia and New Zealand
+										<input type="checkbox" />
+										<span class="checkmark"></span>
+									</label>
+
+									<label class="label-text"
+										>Asia
+										<input type="checkbox" />
+										<span class="checkmark"></span>
+									</label>
+
+									<label class="label-text"
+										>Europe
+										<input type="checkbox" />
+										<span class="checkmark"></span>
+									</label>
+
+									<label class="label-text"
+										>Rest of the World
+										<input type="checkbox" />
+										<span class="checkmark"></span>
+									</label>
+								</div>
+							</form>
+						</li>
+
+						<li>
+							<a>Marketing Information</a>
+							<form action="#" class="popup-form-hidden">
+								<label for="market-info"
+									>Choose one or more:</label
+								>
+								<div class="checkbox-container">
+									<label class="label-text"
+										>Email
+										<input type="checkbox" />
+										<span class="checkmark"></span>
+									</label>
+
+									<label class="label-text"
+										>SEO
+										<input type="checkbox" />
+										<span class="checkmark"></span>
+									</label>
+
+									<label class="label-text"
+										>Direct Mail
+										<input type="checkbox" />
+										<span class="checkmark"></span>
+									</label>
+
+									<label class="label-text"
+										>Social Media
+										<input type="checkbox" />
+										<span class="checkmark"></span>
+									</label>
+								</div>
+							</form>
+						</li>
+
+						<li>
+							<a>Referral Information</a>
+							<form action="#" class="popup-form-hidden">
+								<label for="source"
+									>How did you hear about true
+									Affiliates?</label
+								>
+								<select id="source" name="source">
+									<option value="google">Google</option>
+									<option value="friend">Friend</option>
+									<option value="referrals">Referrals</option>
+									<option value="link">Link</option>
+								</select>
+							</form>
+						</li>
+					</ul>
+					<!-- end accordeon -->
+					<div class="provement">
+						<p>Prove you are a not a robot</p>
+						<div
+							class="g-recaptcha"
+							data-sitekey="6LeZcXcUAAAAACIbloD2Sl_nwHRPqXutbj5Q9RMI"
+						></div>
+						<div class="checkbox-container">
+							<label class="label-text"
+								>Send me the monthly True Affiliates Newsletter
+								<input type="checkbox" />
+								<span class="checkmark"></span>
+							</label>
+
+							<label class="label-text"
+								>I have read and agree to True Affiliates' Terms
+								of Service and Privacy Policy*
+								<input type="checkbox" />
+								<span class="checkmark"></span>
+							</label>
+						</div>
+					</div>
+					<input type="submit" value="SIGNUP" />
+				</div>
+			</div>
+		</div>
+		<!-- [end] popup -->
+
+		<!-- [start] navigation -->
+		<div class="nav-section">
+			<div class="container">
+				<div class="nav">
+					<div class="mhead">
+						<img class="hamburger-ham" src="img/hamburger.png" />
+						<header></header>
+					</div>
+					<div class="logo">
+						<img src="img/logo.svg" alt="True Affiliates" />
+					</div>
+					<div class="menu">
+						<a
+							href="./index.html#earn-section"
+							class="hide-on-sm-mobile"
+							>HOW TO EARN MORE</a
+						>
+						<a href="./signup.html" class="hide-on-sm-mobile"
+							>OFFERS & PROMOS</a
+						>
+						<a
+							href="./index.html#why-section"
+							class="hide-on-sm-mobile"
+							>WHY CHOOSE US?</a
+						>
+						<a href="./login.html" class="login hide-on-sm-mobile"
+							>LOGIN</a
+						>
+						<a href="./signup.html" class="signup hide-on-xs-mobile"
+							>SIGN UP</a
+						>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- [end] navigation -->
+
+		<div class="footer">
+			<div class="container">
+				<div class="footer-content">
+					<div class="logo-footer">
+						<img src="img/logo.svg" />
+					</div>
+					<div class="links">
+						<a href="#">Payment models</a>
+						<a href="#">FAQ</a>
+						<a href="mailto:support@trueaffiliates.com"
+							>Contact Us</a
+						>
+						<a href="#">About Us</a>
+						<a href="#">Offers</a>
+					</div>
+					<div class="outro">
+						<p>
+							At TrueAffiliates, we know that our affiliate
+							partners are our biggest asset and we've been
+							rewarding for their work for over a decade!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- [start] hamburger -->
+		<div class="hamburger">
+			<div class="close-hamburger">
+				<img src="img/close.png" />
+			</div>
+			<ul>
+				<li>
+					<a href="./index.html#earn-section">HOW TO EARN MORE</a>
+				</li>
+				<li><a href="./signup.html">OFFERS & PROMOS</a></li>
+				<li><a href="./index.html#why-section">WHY CHOOSE US?</a></li>
+				<hr />
+				<li><a href="./login.html" class="login">LOGIN</a></li>
+				<li>
+					<a href="./signup.html" class="signup show-on-sm-mobile"
+						>SIGN UP</a
+					>
+				</li>
+			</ul>
+		</div>
+
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+			crossorigin="anonymous"
+		></script>
+		<!-- [end] hamburger -->
+
+		<script type="text/javascript" src="js/customius.js"></script>
+		<script src="https://www.google.com/recaptcha/api.js"></script>
+	</body>
+</html>
